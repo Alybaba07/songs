@@ -25,6 +25,13 @@ img {
 
 p {
     font-size: 45px;
+    margin: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.author {
+    font-size: 35px;
 }
 
 #Song1 {
@@ -71,6 +78,10 @@ p {
     margin-bottom: 2%;
 }
 
+#Song2 #text p:first-child {
+    white-space: nowrap;
+}
+
 #Album2 img {
     width: 40%;
     padding: 0;
@@ -100,10 +111,6 @@ p {
     margin-bottom: -4%;
 }
 
-#Album4 audio::-webkit-media-controls-play-button,
-     audio::-webkit-media-controls-panel {
-     background-color: #FFE9C3;
-     }
 
 #Song4 {
     background-color: #1B1B1B;
@@ -126,8 +133,16 @@ p {
     margin-bottom: 2%;
 }
 
+#Song4 #text p:first-child {
+    white-space: nowrap;
+}
+
 #Album4 img {
     width: 40%;
     padding: 0;
     margin-bottom: -4%;
 }
+
+audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel {
+    background-color: #B08968;
+    }
