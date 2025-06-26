@@ -30,6 +30,24 @@ p {
     text-align: center;
 }
 
+.btn {
+    height: 50px;
+    width: 50px;
+    background: #B08968;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.icone {
+    width: 30px;
+}
+
 .author {
     font-size: 35px;
 }
